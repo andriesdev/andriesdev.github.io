@@ -6,6 +6,9 @@
     header .device-container {
         margin: 40px 0;
     }
+    #mainNav {
+        display: block;
+    }
 }
 
 @media (max-width: 768px) {
