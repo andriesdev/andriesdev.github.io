@@ -2,6 +2,12 @@
     display: none;
 }
 
+.extension-row img {
+    width: 120px;
+    margin: 0 20px;
+    height: auto;
+}
+
 @media (min-width: 768px) {
     header .device-container {
         margin: 40px 0;
@@ -17,6 +23,12 @@
     }
     .device-container {
         display: none;
+    }
+    .extension-row img {
+        margin-bottom: 10px;
+    }
+    #download {
+        padding-bottom: 0;
     }
 }
 
@@ -67,20 +79,18 @@ section.download {
     padding: 100px 0 80px 0;
 }
 
-.extension-row img {
-    width: 120px;
-    margin: 0 20px;
-    height: auto;
-}
-
 .ios-download:hover {
     cursor: default;
 }
 
 .ios-download img {
-    opacity: 0.5;
+    opacity: 0.15;
 }
 
 #header {
     overflow: hidden;
+}
+
+.badge-link {
+    margin: 0 5px;
 }
