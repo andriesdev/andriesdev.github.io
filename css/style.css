@@ -1,0 +1,76 @@
+#mainNav {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    header .device-container {
+        margin: 40px 0;
+    }
+    #mainNav {
+        display: block;
+    }
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.navbar .navbar-brand {
+    font-size: 32px;
+    font-weight: 600 !important;
+    color: #fff !important;
+}
+
+.device-container {
+    margin-right: 100px;
+}
+
+.device-container .mobile-preview {
+    width: auto;
+    height: 970px;
+    right: 100px;
+}
+
+#download {
+    background-color: #fff;
+}
+
+#download hr {
+    max-width: 1000px;
+}
+
+#download .row {
+    margin-bottom: 40px;
+}
+
+.app-row {
+    padding-bottom: 30px;
+}
+
+.extension-row {
+    padding-top: 30px;
+}
+
+section.download {
+    padding: 100px 0 80px 0;
+}
+
+.extension-row img {
+    width: 120px;
+    margin: 0 20px;
+    height: auto;
+}
+
+.ios-download:hover {
+    cursor: default;
+}
+
+.ios-download img {
+    opacity: 0.5;
+}
+
+#header {
+    overflow: hidden;
+}
