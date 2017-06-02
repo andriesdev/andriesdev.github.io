@@ -8,6 +8,15 @@
     height: auto;
 }
 
+.trident-img {
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    opacity: 0.15;
+    width: 750px;
+    height: auto;
+}
+
 @media (min-width: 768px) {
     header .device-container {
         margin: 40px 0;
@@ -30,8 +39,16 @@
     #download {
         padding-bottom: 0;
     }
+    .trident-img {
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        opacity: 0.15;
+        width: 300px;
+        transform: translate(-50%, 0);
+        height: auto;
+    }   
 }
-
 
 .navbar-fixed-bottom, .navbar-fixed-top {
     position: absolute;
@@ -89,6 +106,7 @@ section.download {
 
 header {
     overflow: hidden;
+    background: url(../img/bg-pattern.png),linear-gradient(to left,#6D3C87,#B564E0);
 }
 
 .badge-link {
